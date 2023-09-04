@@ -1,0 +1,34 @@
+*
+{ padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+body {
+    background-image: url("https://wallpapershome.com/images/pages/pic_h/4107.jpg");
+    background-size:cover;
+   font-family:sans-serif;
+}
+
+.menu-bar {
+    background-color:rgb(5, 29, 5);
+    text-align:center;
+    color:rgb(134, 235, 134)
+}
+.menu-bar ul{
+    display:inline-flex;
+    list-style:none;
+}
+.menu-bar ul li {
+    width:100px;
+    margin:10px;
+    padding:10px;
+}
+.menu-bar ul li a {
+text-decoration:none;
+color: aliceblue;
+}
+.active, .menu-bar ul li:hover
+{ background: rgb(36, 116, 89);
+  border-radius:3px;
+}
