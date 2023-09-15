@@ -83,5 +83,5 @@
 // console.log(text1)
 
  let email="raghu.mr199@gmail.com"
- let raghu=email.charAt(3).slice(5).padStart(21,"*")
+ let raghu=email.charAt(3)
  console.log(raghu)
